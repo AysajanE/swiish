@@ -13,7 +13,7 @@ function normalizeMatrixUrl(value) {
     throw new Error('Invalid Matrix URL');
   }
 
-  return normalized;
+  return parsed.href;
 }
 
 module.exports = { normalizeMatrixUrl };
